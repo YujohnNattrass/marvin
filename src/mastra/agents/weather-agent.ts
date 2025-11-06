@@ -21,7 +21,7 @@ export const weatherAgent = new Agent({
 
       Use the weatherTool to fetch current weather data.
 `,
-  model: "google/gemini-2.5-pro",
+  model: "openai/gpt-4o-mini",
   tools: { weatherTool },
   scorers: {
     toolCallAppropriateness: {
@@ -33,13 +33,6 @@ export const weatherAgent = new Agent({
     },
     completeness: {
       scorer: scorers.completenessScorer,
-      sampling: {
-        type: "ratio",
-        rate: 1,
-      },
-    },
-    translation: {
-      scorer: scorers.translationScorer,
       sampling: {
         type: "ratio",
         rate: 1,
