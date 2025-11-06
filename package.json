@@ -17,21 +17,21 @@
     "node": ">=20.9.0"
   },
   "dependencies": {
-    "@mastra/ai-sdk": "0.0.0-1.x-tester-20251106082732",
-    "@mastra/core": "0.0.0-1.x-tester-20251106082732",
-    "@mastra/evals": "0.0.0-1.x-tester-20251106082732",
-    "@mastra/libsql": "0.0.0-1.x-tester-20251106082732",
-    "@mastra/loggers": "0.0.0-1.x-tester-20251106082732",
-    "@mastra/mcp": "0.0.0-1.x-tester-20251106082732",
-    "@mastra/memory": "0.0.0-1.x-tester-20251106082732",
-    "@mastra/observability": "0.0.0-1.x-tester-20251106082732",
-    "@mastra/pg": "0.0.0-1.x-tester-20251106082732",
-    "mastra": "0.0.0-1.x-tester-20251106082732",
+    "@mastra/ai-sdk": "1.x-tester",
+    "@mastra/core": "1.x-tester",
+    "@mastra/evals": "1.x-tester",
+    "@mastra/libsql": "1.x-tester",
+    "@mastra/loggers": "1.x-tester",
+    "@mastra/mcp": "1.x-tester",
+    "@mastra/memory": "1.x-tester",
+    "@mastra/observability": "1.x-tester",
+    "@mastra/pg": "1.x-tester",
+    "mastra": "1.x-tester",
     "zod": "^4.1.12"
   },
   "devDependencies": {
     "@types/node": "^24.10.0",
-    "mastra": "0.0.0-1.x-tester-20251106082732",
+    "mastra": "1.x-tester",
     "typescript": "^5.9.3"
   }
 }

@@ -9,35 +9,35 @@ importers:
   .:
     dependencies:
       '@mastra/ai-sdk':
-        specifier: 0.0.0-1.x-tester-20251106082732
-        version: 0.0.0-1.x-tester-20251106082732(@mastra/core@0.0.0-1.x-tester-20251106082732)(zod@4.1.12)
+        specifier: 1.x-tester
+        version: 0.0.0-1.x-tester-20251106141102(@mastra/core@0.0.0-1.x-tester-20251106141102)(zod@4.1.12)
       '@mastra/core':
-        specifier: 0.0.0-1.x-tester-20251106082732
-        version: 0.0.0-1.x-tester-20251106082732(@mastra/observability@0.0.0-1.x-tester-20251106082732)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)
+        specifier: 1.x-tester
+        version: 0.0.0-1.x-tester-20251106141102(@mastra/observability@0.0.0-1.x-tester-20251106141102)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)
       '@mastra/evals':
-        specifier: 0.0.0-1.x-tester-20251106082732
-        version: 0.0.0-1.x-tester-20251106082732(@mastra/core@0.0.0-1.x-tester-20251106082732)(ai@5.0.87(zod@4.1.12))(zod@4.1.12)
+        specifier: 1.x-tester
+        version: 0.0.0-1.x-tester-20251106141102(@mastra/core@0.0.0-1.x-tester-20251106141102)(ai@5.0.87(zod@4.1.12))(zod@4.1.12)
       '@mastra/libsql':
-        specifier: 0.0.0-1.x-tester-20251106082732
-        version: 0.0.0-1.x-tester-20251106082732(@mastra/core@0.0.0-1.x-tester-20251106082732)
+        specifier: 1.x-tester
+        version: 0.0.0-1.x-tester-20251106141102(@mastra/core@0.0.0-1.x-tester-20251106141102)
       '@mastra/loggers':
-        specifier: 0.0.0-1.x-tester-20251106082732
-        version: 0.0.0-1.x-tester-20251106082732(@mastra/core@0.0.0-1.x-tester-20251106082732)
+        specifier: 1.x-tester
+        version: 0.0.0-1.x-tester-20251106141102(@mastra/core@0.0.0-1.x-tester-20251106141102)
       '@mastra/mcp':
-        specifier: 0.0.0-1.x-tester-20251106082732
-        version: 0.0.0-1.x-tester-20251106082732(@mastra/core@0.0.0-1.x-tester-20251106082732)(@types/json-schema@7.0.15)(zod@4.1.12)
+        specifier: 1.x-tester
+        version: 0.0.0-1.x-tester-20251106141102(@mastra/core@0.0.0-1.x-tester-20251106141102)(@types/json-schema@7.0.15)(zod@4.1.12)
       '@mastra/memory':
-        specifier: 0.0.0-1.x-tester-20251106082732
-        version: 0.0.0-1.x-tester-20251106082732(@mastra/core@0.0.0-1.x-tester-20251106082732)(react@19.2.0)(zod@4.1.12)
+        specifier: 1.x-tester
+        version: 0.0.0-1.x-tester-20251106141102(@mastra/core@0.0.0-1.x-tester-20251106141102)(react@19.2.0)(zod@4.1.12)
       '@mastra/observability':
-        specifier: 0.0.0-1.x-tester-20251106082732
-        version: 0.0.0-1.x-tester-20251106082732(@mastra/core@0.0.0-1.x-tester-20251106082732)
+        specifier: 1.x-tester
+        version: 0.0.0-1.x-tester-20251106141102(@mastra/core@0.0.0-1.x-tester-20251106141102)
       '@mastra/pg':
-        specifier: 0.0.0-1.x-tester-20251106082732
-        version: 0.0.0-1.x-tester-20251106082732(@mastra/core@0.0.0-1.x-tester-20251106082732)(pg-query-stream@4.10.3(pg@8.16.3))
+        specifier: 1.x-tester
+        version: 0.0.0-1.x-tester-20251106141102(@mastra/core@0.0.0-1.x-tester-20251106141102)(pg-query-stream@4.10.3(pg@8.16.3))
       mastra:
-        specifier: 0.0.0-1.x-tester-20251106082732
-        version: 0.0.0-1.x-tester-20251106082732(@mastra/core@0.0.0-1.x-tester-20251106082732)(typescript@5.9.3)(zod@4.1.12)
+        specifier: 1.x-tester
+        version: 0.0.0-1.x-tester-20251106141102(@mastra/core@0.0.0-1.x-tester-20251106141102)(typescript@5.9.3)(zod@4.1.12)
       zod:
         specifier: ^4.1.12
         version: 4.1.12
@@ -524,15 +524,15 @@ packages:
     resolution: {integrity: sha512-qC72D4+CDdjGqJvkFMMEAtancHUQ7/d/tAiHf64z8MopFDmcrtbcJuerDtFceuAfQJ2pDSfCKCtbqoGBNnwg0w==}
     engines: {node: '>=8'}
 
-  '@mastra/ai-sdk@0.0.0-1.x-tester-20251106082732':
-    resolution: {integrity: sha512-cMZ94eqa3LCDkYqB2LG1mMsic4zqT0+1zdnaxfnyS6vsqDyw5VfRvdyPJ7O13qK8gB1ySpcGGnnttIxeHFZRSw==}
+  '@mastra/ai-sdk@0.0.0-1.x-tester-20251106141102':
+    resolution: {integrity: sha512-fngVva0+B1cep90ES/e1X9Y/UD1sFVfyVSuAa54iLnj5mEiVWJ6P/EkaljiXL7HJCJDXCNrfvPG/07Mj8xkfig==}
     engines: {node: '>=22.13.0'}
     peerDependencies:
-      '@mastra/core': 0.0.0-1.x-tester-20251106082732
+      '@mastra/core': 0.0.0-1.x-tester-20251106141102
       zod: ^3.25.0 || ^4.0.0
 
-  '@mastra/core@0.0.0-1.x-tester-20251106082732':
-    resolution: {integrity: sha512-8mkqamxkPbcEG/tc+n5F536pTh7Jt991ont/h4t3tBzw1wUQdRcIOzK1p0dG8LeGntC2VPi3Pl3j1MQAOTy2uQ==}
+  '@mastra/core@0.0.0-1.x-tester-20251106141102':
+    resolution: {integrity: sha512-VbCM7g8Bh3ii+Qr2pk47gdADTzYNTe1NJIvVDP58c/MN/RuqQ++4Et7u61uL7LsJuYQa7yifnJuS8d6laKqP/g==}
     engines: {node: '>=22.13.0'}
     peerDependencies:
       '@mastra/observability': 0.0.4
@@ -541,70 +541,70 @@ packages:
       '@mastra/observability':
         optional: true
 
-  '@mastra/deployer@0.0.0-1.x-tester-20251106082732':
-    resolution: {integrity: sha512-27nfBIgb+IP7YwSrpBdkfNeFRTS4batR2dYKg3z92xyB4VGr9TgTa2OUBi47Oq0Ff2y7VXlTlbf+SWpRyYS1ew==}
+  '@mastra/deployer@0.0.0-1.x-tester-20251106141102':
+    resolution: {integrity: sha512-BGPOxC1hwzJeM4gZUvxQHY96LYdT8dO2TnXXDzij8xdIOTq6yu+WN7efWIqHhc3cjQ/Ob0WoUqRjXEomwHsdxw==}
     engines: {node: '>=22.13.0'}
     peerDependencies:
-      '@mastra/core': 0.0.0-1.x-tester-20251106082732
+      '@mastra/core': 0.0.0-1.x-tester-20251106141102
       zod: ^3.25.0 || ^4.0.0
 
-  '@mastra/evals@0.0.0-1.x-tester-20251106082732':
-    resolution: {integrity: sha512-yLqqyLr+sCpyFp20mzXrKAE8Wcop+TNlfeiZqmYeCWsfZV5awEebkrZna8MEpSSJwQhjq5IBp9Jo/cdTtoDKUA==}
+  '@mastra/evals@0.0.0-1.x-tester-20251106141102':
+    resolution: {integrity: sha512-0HR7+f6HUMzZ5Cw2LEsfQRfVtnM+qRCcjN1qire/ZwpylxRAe+2e2Os3NK685SgFwS+Yd0aB6pJdSPXhdT4WHg==}
     engines: {node: '>=22.13.0'}
     peerDependencies:
-      '@mastra/core': 0.0.0-1.x-tester-20251106082732
+      '@mastra/core': 0.0.0-1.x-tester-20251106141102
       ai: ^4.0.0 || ^5.0.0
       zod: ^3.25.0 || ^4.0.0
 
-  '@mastra/libsql@0.0.0-1.x-tester-20251106082732':
-    resolution: {integrity: sha512-ps4pWxt67B29lnUoQqte4EXhaj6ApssKlMuWHltRB4AvrgqkZsjhzVx3CSnSfBkrxnGv50T20smk2Zq5Ap6fcg==}
+  '@mastra/libsql@0.0.0-1.x-tester-20251106141102':
+    resolution: {integrity: sha512-9vBcvt0j3LiNyaNI/tyYoVQRestS5Z0ULssSL+amG9B978kg+00p5qBLvxTnD1nksJnsOh1TNjZ5SUkOUg6hyg==}
     engines: {node: '>=22.13.0'}
     peerDependencies:
-      '@mastra/core': 0.0.0-1.x-tester-20251106082732
+      '@mastra/core': 0.0.0-1.x-tester-20251106141102
 
-  '@mastra/loggers@0.0.0-1.x-tester-20251106082732':
-    resolution: {integrity: sha512-Qowt2ZeyjYDbgrMwmzsvaONmofvJ5yX9/jpCpJx52Rsa6sSiRXS+s0vyuuTR3dU26ECTZY8BTA5blsQMO2UMJg==}
+  '@mastra/loggers@0.0.0-1.x-tester-20251106141102':
+    resolution: {integrity: sha512-fEQqBKQyneOh6tLGuaPpRA3s7yinG+S0segPyQC0M8j57ctoaFR9+zIN2UnRZSvKLa55a6ywsX1AqXJZRdcCGQ==}
     engines: {node: '>=22.13.0'}
     peerDependencies:
-      '@mastra/core': 0.0.0-1.x-tester-20251106082732
+      '@mastra/core': 0.0.0-1.x-tester-20251106141102
 
-  '@mastra/mcp@0.0.0-1.x-tester-20251106082732':
-    resolution: {integrity: sha512-howEMllTWYdH05fdtcZnU7OD1H3moWdaJDqiTMEAT5Y/5z3YjhNa0AhwRVjFrfzBMh4I38S9do4X/H4bRry15w==}
+  '@mastra/mcp@0.0.0-1.x-tester-20251106141102':
+    resolution: {integrity: sha512-Gq6DVK+Amoz8u5cz5h8WTq7Q5C6J0J75msh77rL6gfhloXKjA8cMBb+ssAdm4nlEzpqG+aE+3uBhaTHguqR05g==}
     engines: {node: '>=22.13.0'}
     peerDependencies:
-      '@mastra/core': 0.0.0-1.x-tester-20251106082732
+      '@mastra/core': 0.0.0-1.x-tester-20251106141102
       zod: ^3.25.0 || ^4.0.0
 
-  '@mastra/memory@0.0.0-1.x-tester-20251106082732':
-    resolution: {integrity: sha512-aShqPiZSOveGyWfR92e6bTk48wjMK4xvHxjT1Hx7MDyUd4wlWePQFjEAADMRDHd89dKU5QV2nmxSJ26O5KCGAA==}
+  '@mastra/memory@0.0.0-1.x-tester-20251106141102':
+    resolution: {integrity: sha512-QqFvU7wUsao39/wuQ35VCdsmOUuSCIpLtn4t2t/HYq9HKnzAk6/hq77ppZ1+H2/dfwPSVBsElVb520kJU2lyuA==}
     engines: {node: '>=22.13.0'}
     peerDependencies:
-      '@mastra/core': 0.0.0-1.x-tester-20251106082732
+      '@mastra/core': 0.0.0-1.x-tester-20251106141102
       zod: ^3.25.0 || ^4.0.0
 
-  '@mastra/observability@0.0.0-1.x-tester-20251106082732':
-    resolution: {integrity: sha512-T0PgVtWlEPOCES99Che+BCSAweXqfiWbbr2uOn2z3wMhGGAKiReT/TJW0YKd4ZMwuixieYXMZ49A7NF8DpsfmA==}
+  '@mastra/observability@0.0.0-1.x-tester-20251106141102':
+    resolution: {integrity: sha512-Yg3up9KPBcUCKk8qMJBrAeVayGMJqvqWTxFUT7867j+DKJFzSXSQzGGwGLDcfJfAjT25YzzzvtsOfnQPH9fNcg==}
     engines: {node: '>=22.13.0'}
     peerDependencies:
-      '@mastra/core': 0.0.0-1.x-tester-20251106082732
+      '@mastra/core': 0.0.0-1.x-tester-20251106141102
 
-  '@mastra/pg@0.0.0-1.x-tester-20251106082732':
-    resolution: {integrity: sha512-ffikgFtw5yuaaGZ490SKBvNrpRmUWcyWzt12PkcG17006/PnFiYSaJTu2pgrGLgYYYOceci2P9nCG7jIe/gsfw==}
+  '@mastra/pg@0.0.0-1.x-tester-20251106141102':
+    resolution: {integrity: sha512-/DHR+XqP2Vn0hw3L69WEc+WpIv8JUf5OgMGAozZbw7cVvYW7cAg6Byd2rBslvaM/cjFctTCdMBP9ezHP2PeDyg==}
     engines: {node: '>=22.13.0'}
     peerDependencies:
-      '@mastra/core': 0.0.0-1.x-tester-20251106082732
+      '@mastra/core': 0.0.0-1.x-tester-20251106141102
 
-  '@mastra/schema-compat@0.0.0-1.x-tester-20251106082732':
-    resolution: {integrity: sha512-kv/4ECIdwqkSjVi62qYZZKn49rBZMcFe96Ioj2vJhFYBDFmtSBuQ9JnmeWOLrG5IabYOCnomWHhFRLwU5DHU+A==}
+  '@mastra/schema-compat@0.0.0-1.x-tester-20251106141102':
+    resolution: {integrity: sha512-QzWSFdb9SDmkuP9ExSz5mEkCmo5JvGgeCeMInE7gcv7ZHGoKzyHlinTnSC/3ltH1q+Hq3C/DLBIH0KF8xXZJLw==}
     engines: {node: '>=22.13.0'}
     peerDependencies:
       zod: ^3.25.0 || ^4.0.0
 
-  '@mastra/server@0.0.0-1.x-tester-20251106082732':
-    resolution: {integrity: sha512-bU5jEcDyKM61COo339KN++06F2Du+tZWGZkFzurXkwpFgAiD32Ii4Q9dPhuMmJFuMd0svKvCFG3V3WnWdbPygQ==}
+  '@mastra/server@0.0.0-1.x-tester-20251106141102':
+    resolution: {integrity: sha512-aB3SurK3hHZ+lSD/0S1didly75SxYPkUZWkBD7behsRVsCptB/7jSYENJOxNbooO3KtDfqac3CsV14G4FANHLQ==}
     engines: {node: '>=22.13.0'}
     peerDependencies:
-      '@mastra/core': 0.0.0-1.x-tester-20251106082732
+      '@mastra/core': 0.0.0-1.x-tester-20251106141102
       zod: ^3.25.0 || ^4.0.0
 
   '@modelcontextprotocol/sdk@1.21.0':
@@ -1750,12 +1750,12 @@ packages:
   magic-string@0.30.21:
     resolution: {integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==}
 
-  mastra@0.0.0-1.x-tester-20251106082732:
-    resolution: {integrity: sha512-fUTieZzFSO9iGsQCBNa5TVNuEisucFsAq4A/LnMM4yZd/Cdh5JTFpKYHVGjpINT/ZdGbwGRVy9KD8Forgm68xQ==}
+  mastra@0.0.0-1.x-tester-20251106141102:
+    resolution: {integrity: sha512-j99h/jTFKVW6CVjbu8a5kRxvbyE7Fu4NQX8XD2pNknHF2d8UgMIJ8/1LMSnrmCbACIGXFWTD5Ac2JFoXapL09Q==}
     engines: {node: '>=22.13.0'}
     hasBin: true
     peerDependencies:
-      '@mastra/core': 0.0.0-1.x-tester-20251106082732
+      '@mastra/core': 0.0.0-1.x-tester-20251106141102
       zod: ^3.25.0 || ^4.0.0
 
   math-intrinsics@1.1.0:
@@ -2965,18 +2965,21 @@ snapshots:
     dependencies:
       '@lukeed/csprng': 1.1.0
 
-  '@mastra/ai-sdk@0.0.0-1.x-tester-20251106082732(@mastra/core@0.0.0-1.x-tester-20251106082732)(zod@4.1.12)':
+  '@mastra/ai-sdk@0.0.0-1.x-tester-20251106141102(@mastra/core@0.0.0-1.x-tester-20251106141102)(zod@4.1.12)':
     dependencies:
-      '@mastra/core': 0.0.0-1.x-tester-20251106082732(@mastra/observability@0.0.0-1.x-tester-20251106082732)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)
+      '@mastra/core': 0.0.0-1.x-tester-20251106141102(@mastra/observability@0.0.0-1.x-tester-20251106141102)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)
       ai: 5.0.87(zod@4.1.12)
       zod: 4.1.12
 
-  '@mastra/core@0.0.0-1.x-tester-20251106082732(@mastra/observability@0.0.0-1.x-tester-20251106082732)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)':
+  '@mastra/core@0.0.0-1.x-tester-20251106141102(@mastra/observability@0.0.0-1.x-tester-20251106141102)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)':
     dependencies:
       '@a2a-js/sdk': 0.2.5
+      '@ai-sdk/provider-utils-v5': '@ai-sdk/provider-utils@3.0.12(zod@4.1.12)'
+      '@ai-sdk/provider-v5': '@ai-sdk/provider@2.0.0'
+      '@ai-sdk/ui-utils-v5': '@ai-sdk/ui-utils@1.2.11(zod@4.1.12)'
       '@isaacs/ttlcache': 1.4.1
       '@lukeed/uuid': 2.0.1
-      '@mastra/schema-compat': 0.0.0-1.x-tester-20251106082732(zod@4.1.12)
+      '@mastra/schema-compat': 0.0.0-1.x-tester-20251106141102(zod@4.1.12)
       '@modelcontextprotocol/sdk': 1.21.0
       '@openrouter/ai-sdk-provider-v5': '@openrouter/ai-sdk-provider@1.2.0(ai@5.0.87(zod@4.1.12))(zod@4.1.12)'
       '@sindresorhus/slugify': 2.2.1
@@ -2998,7 +3001,7 @@ snapshots:
       zod: 4.1.12
       zod-to-json-schema: 3.24.6(zod@4.1.12)
     optionalDependencies:
-      '@mastra/observability': 0.0.0-1.x-tester-20251106082732(@mastra/core@0.0.0-1.x-tester-20251106082732)
+      '@mastra/observability': 0.0.0-1.x-tester-20251106141102(@mastra/core@0.0.0-1.x-tester-20251106141102)
     transitivePeerDependencies:
       - '@cfworker/json-schema'
       - '@hono/arktype-validator'
@@ -3016,13 +3019,13 @@ snapshots:
       - valibot
       - zod-openapi
 
-  '@mastra/deployer@0.0.0-1.x-tester-20251106082732(@mastra/core@0.0.0-1.x-tester-20251106082732)(typescript@5.9.3)(zod@4.1.12)':
+  '@mastra/deployer@0.0.0-1.x-tester-20251106141102(@mastra/core@0.0.0-1.x-tester-20251106141102)(typescript@5.9.3)(zod@4.1.12)':
     dependencies:
       '@babel/core': 7.28.5
       '@babel/helper-module-imports': 7.27.1
       '@babel/preset-typescript': 7.28.5(@babel/core@7.28.5)
-      '@mastra/core': 0.0.0-1.x-tester-20251106082732(@mastra/observability@0.0.0-1.x-tester-20251106082732)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)
-      '@mastra/server': 0.0.0-1.x-tester-20251106082732(@mastra/core@0.0.0-1.x-tester-20251106082732)(zod@4.1.12)
+      '@mastra/core': 0.0.0-1.x-tester-20251106141102(@mastra/observability@0.0.0-1.x-tester-20251106141102)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)
+      '@mastra/server': 0.0.0-1.x-tester-20251106141102(@mastra/core@0.0.0-1.x-tester-20251106141102)(zod@4.1.12)
       '@neon-rs/load': 0.1.82
       '@optimize-lodash/rollup-plugin': 5.0.2(rollup@4.50.2)
       '@rollup/plugin-alias': 5.1.1(rollup@4.50.2)
@@ -3053,9 +3056,9 @@ snapshots:
       - supports-color
       - typescript
 
-  '@mastra/evals@0.0.0-1.x-tester-20251106082732(@mastra/core@0.0.0-1.x-tester-20251106082732)(ai@5.0.87(zod@4.1.12))(zod@4.1.12)':
+  '@mastra/evals@0.0.0-1.x-tester-20251106141102(@mastra/core@0.0.0-1.x-tester-20251106141102)(ai@5.0.87(zod@4.1.12))(zod@4.1.12)':
     dependencies:
-      '@mastra/core': 0.0.0-1.x-tester-20251106082732(@mastra/observability@0.0.0-1.x-tester-20251106082732)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)
+      '@mastra/core': 0.0.0-1.x-tester-20251106141102(@mastra/observability@0.0.0-1.x-tester-20251106141102)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)
       ai: 5.0.87(zod@4.1.12)
       compromise: 14.14.4
       fs-extra: 11.3.2
@@ -3064,24 +3067,24 @@ snapshots:
       string-similarity: 4.0.4
       zod: 4.1.12
 
-  '@mastra/libsql@0.0.0-1.x-tester-20251106082732(@mastra/core@0.0.0-1.x-tester-20251106082732)':
+  '@mastra/libsql@0.0.0-1.x-tester-20251106141102(@mastra/core@0.0.0-1.x-tester-20251106141102)':
     dependencies:
       '@libsql/client': 0.15.15
-      '@mastra/core': 0.0.0-1.x-tester-20251106082732(@mastra/observability@0.0.0-1.x-tester-20251106082732)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)
+      '@mastra/core': 0.0.0-1.x-tester-20251106141102(@mastra/observability@0.0.0-1.x-tester-20251106141102)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
 
-  '@mastra/loggers@0.0.0-1.x-tester-20251106082732(@mastra/core@0.0.0-1.x-tester-20251106082732)':
+  '@mastra/loggers@0.0.0-1.x-tester-20251106141102(@mastra/core@0.0.0-1.x-tester-20251106141102)':
     dependencies:
-      '@mastra/core': 0.0.0-1.x-tester-20251106082732(@mastra/observability@0.0.0-1.x-tester-20251106082732)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)
+      '@mastra/core': 0.0.0-1.x-tester-20251106141102(@mastra/observability@0.0.0-1.x-tester-20251106141102)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)
       pino: 9.14.0
       pino-pretty: 13.1.2
 
-  '@mastra/mcp@0.0.0-1.x-tester-20251106082732(@mastra/core@0.0.0-1.x-tester-20251106082732)(@types/json-schema@7.0.15)(zod@4.1.12)':
+  '@mastra/mcp@0.0.0-1.x-tester-20251106141102(@mastra/core@0.0.0-1.x-tester-20251106141102)(@types/json-schema@7.0.15)(zod@4.1.12)':
     dependencies:
       '@apidevtools/json-schema-ref-parser': 14.2.1(@types/json-schema@7.0.15)
-      '@mastra/core': 0.0.0-1.x-tester-20251106082732(@mastra/observability@0.0.0-1.x-tester-20251106082732)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)
+      '@mastra/core': 0.0.0-1.x-tester-20251106141102(@mastra/observability@0.0.0-1.x-tester-20251106141102)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)
       '@modelcontextprotocol/sdk': 1.21.0
       date-fns: 4.1.0
       exit-hook: 4.0.0
@@ -3095,10 +3098,10 @@ snapshots:
       - '@types/json-schema'
       - supports-color
 
-  '@mastra/memory@0.0.0-1.x-tester-20251106082732(@mastra/core@0.0.0-1.x-tester-20251106082732)(react@19.2.0)(zod@4.1.12)':
+  '@mastra/memory@0.0.0-1.x-tester-20251106141102(@mastra/core@0.0.0-1.x-tester-20251106141102)(react@19.2.0)(zod@4.1.12)':
     dependencies:
-      '@mastra/core': 0.0.0-1.x-tester-20251106082732(@mastra/observability@0.0.0-1.x-tester-20251106082732)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)
-      '@mastra/schema-compat': 0.0.0-1.x-tester-20251106082732(zod@4.1.12)
+      '@mastra/core': 0.0.0-1.x-tester-20251106141102(@mastra/observability@0.0.0-1.x-tester-20251106141102)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)
+      '@mastra/schema-compat': 0.0.0-1.x-tester-20251106141102(zod@4.1.12)
       '@upstash/redis': 1.35.6
       ai: 4.3.19(react@19.2.0)(zod@4.1.12)
       ai-v5: ai@5.0.60(zod@4.1.12)
@@ -3116,14 +3119,14 @@ snapshots:
       - pg-native
       - react
 
-  '@mastra/observability@0.0.0-1.x-tester-20251106082732(@mastra/core@0.0.0-1.x-tester-20251106082732)':
+  '@mastra/observability@0.0.0-1.x-tester-20251106141102(@mastra/core@0.0.0-1.x-tester-20251106141102)':
     dependencies:
-      '@mastra/core': 0.0.0-1.x-tester-20251106082732(@mastra/observability@0.0.0-1.x-tester-20251106082732)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)
+      '@mastra/core': 0.0.0-1.x-tester-20251106141102(@mastra/observability@0.0.0-1.x-tester-20251106141102)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)
       zod: 3.25.76
 
-  '@mastra/pg@0.0.0-1.x-tester-20251106082732(@mastra/core@0.0.0-1.x-tester-20251106082732)(pg-query-stream@4.10.3(pg@8.16.3))':
+  '@mastra/pg@0.0.0-1.x-tester-20251106141102(@mastra/core@0.0.0-1.x-tester-20251106141102)(pg-query-stream@4.10.3(pg@8.16.3))':
     dependencies:
-      '@mastra/core': 0.0.0-1.x-tester-20251106082732(@mastra/observability@0.0.0-1.x-tester-20251106082732)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)
+      '@mastra/core': 0.0.0-1.x-tester-20251106141102(@mastra/observability@0.0.0-1.x-tester-20251106141102)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)
       async-mutex: 0.5.0
       pg: 8.16.3
       pg-promise: 11.15.0(pg-query-stream@4.10.3(pg@8.16.3))
@@ -3132,7 +3135,7 @@ snapshots:
       - pg-native
       - pg-query-stream
 
-  '@mastra/schema-compat@0.0.0-1.x-tester-20251106082732(zod@4.1.12)':
+  '@mastra/schema-compat@0.0.0-1.x-tester-20251106141102(zod@4.1.12)':
     dependencies:
       json-schema: 0.4.0
       zod: 4.1.12
@@ -3140,9 +3143,9 @@ snapshots:
       zod-from-json-schema-v3: zod-from-json-schema@0.0.5
       zod-to-json-schema: 3.24.6(zod@4.1.12)
 
-  '@mastra/server@0.0.0-1.x-tester-20251106082732(@mastra/core@0.0.0-1.x-tester-20251106082732)(zod@4.1.12)':
+  '@mastra/server@0.0.0-1.x-tester-20251106141102(@mastra/core@0.0.0-1.x-tester-20251106141102)(zod@4.1.12)':
     dependencies:
-      '@mastra/core': 0.0.0-1.x-tester-20251106082732(@mastra/observability@0.0.0-1.x-tester-20251106082732)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)
+      '@mastra/core': 0.0.0-1.x-tester-20251106141102(@mastra/observability@0.0.0-1.x-tester-20251106141102)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)
       zod: 4.1.12
 
   '@modelcontextprotocol/sdk@1.21.0':
@@ -4220,13 +4223,13 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  mastra@0.0.0-1.x-tester-20251106082732(@mastra/core@0.0.0-1.x-tester-20251106082732)(typescript@5.9.3)(zod@4.1.12):
+  mastra@0.0.0-1.x-tester-20251106141102(@mastra/core@0.0.0-1.x-tester-20251106141102)(typescript@5.9.3)(zod@4.1.12):
     dependencies:
       '@clack/prompts': 0.11.0
       '@expo/devcert': 1.2.0
-      '@mastra/core': 0.0.0-1.x-tester-20251106082732(@mastra/observability@0.0.0-1.x-tester-20251106082732)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)
-      '@mastra/deployer': 0.0.0-1.x-tester-20251106082732(@mastra/core@0.0.0-1.x-tester-20251106082732)(typescript@5.9.3)(zod@4.1.12)
-      '@mastra/loggers': 0.0.0-1.x-tester-20251106082732(@mastra/core@0.0.0-1.x-tester-20251106082732)
+      '@mastra/core': 0.0.0-1.x-tester-20251106141102(@mastra/observability@0.0.0-1.x-tester-20251106141102)(ai@5.0.87(zod@4.1.12))(openapi-types@12.1.3)(zod@4.1.12)
+      '@mastra/deployer': 0.0.0-1.x-tester-20251106141102(@mastra/core@0.0.0-1.x-tester-20251106141102)(typescript@5.9.3)(zod@4.1.12)
+      '@mastra/loggers': 0.0.0-1.x-tester-20251106141102(@mastra/core@0.0.0-1.x-tester-20251106141102)
       '@webcontainer/env': 1.1.1
       commander: 12.1.0
       dotenv: 16.6.1
